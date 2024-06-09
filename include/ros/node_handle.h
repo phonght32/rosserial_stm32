@@ -643,6 +643,7 @@ public:
     }
     return false;
   }
+  #pragma GCC diagnostic ignored "-Wsign-compare"
   bool getParam(const char* name, char** param, int length = 1, int timeout = 1000)
   {
     if (requestParam(name, timeout))

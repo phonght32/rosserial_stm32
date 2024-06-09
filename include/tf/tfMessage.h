@@ -7,6 +7,7 @@
 #include "ros/msg.h"
 #include "geometry_msgs/TransformStamped.h"
 
+#pragma GCC diagnostic ignored "-Wclass-memaccess"
 namespace tf
 {
 
